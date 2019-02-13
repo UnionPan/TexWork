@@ -1,0 +1,102 @@
+\documentclass[a4paper,12pt]{article}
+
+
+\usepackage{setspace}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{subfigure}
+\usepackage{caption}
+\captionsetup{figurewithin=section}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+
+\begin{document}
+
+\title{\textbf{Homework 4}}
+\author{Yunian Pan}
+\maketitle{}
+
+
+\section{Problem 1: EM}
+\subsection{E step:}
+\begin{align}
+Q_i(z_i) &= p(z_i \rvert x_i ; \theta)  \nonumber \\
+& = \dfrac{p(z_i ,  x_i \rvert \theta)}{\sum_{z_i}p(z_i,  x_i \rvert \theta)} \nonumber \\
+& = \dfrac{\pi_{z_i} \prod_{j = 1}^{M}\mu_{z_i}(j)^{x_i(j)}}{\sum_{z_i}^{k}\pi_{z_i} \prod_{j = 1}^{M} \mu_{z_i}(j)^{x_i(j)} }\nonumber 
+\end{align}
+
+\subsection{M step:}
+\begin{align}
+\mathcal{L}(\theta) & = \sum_{i = 1}^{N} \sum_{z_i} Q_i(z_i) \log \dfrac{p(x_i , z_i; \theta)}{Q_i(z_i)} \nonumber \\
+& = \sum_{i = 1}^{N} \sum_{z_i} Q_i(z_i) \log p(x_i , z_i; \theta) - \sum_{i = 1}^{N} \sum_{z_i} Q_i(z_i) \log Q_i(z_i) \nonumber \\
+& = Q(\theta) - const  \nonumber 
+\end{align}
+\begin{align}
+\mathcal{Q}(\theta) & =  \sum_{i = 1}^{N} \sum_{z_i} Q_i(z_i) \log p(x_i , z_i; \theta)\nonumber \\
+ & = \sum_{i = 1}^{N} \sum_{z_i}  \tau_{i,z_i} (\log \pi_{z_i} + \log  \prod_{j = 1}^{M}\mu_{z_i}(j)^{x_i(j)})\nonumber \\
+ & = \sum_{i = 1}^{N} \sum_{z_i}  \tau_{i,z_i} (\log \pi_{z_i} + x_i(q)\log \mu_{z_i}(q)) \qquad (x_i(q) = 1)\nonumber 
+\end{align}
+Where we write $Q_i(z_i)$ as $\tau_{i,z_i}$.
+
+There are 2 constraints: $\sum_{j}^{M}\mu_k(j) = 1$, $\sum_{i}^{K}\pi_i = 1$, with an observation $\sum_{j}^{M}x_i(j) = 1 \ \forall x_i \in \{ x_1, \ldots , x_N\}$. 
+
+Use lagrange multiplier to find the optimum value of $\pi_{z_i}$ and $\mu_{z_i}$ as below:
+\begin{align}
+L(\mu, \pi, \lambda_1, \lambda_2) & = \mathcal{Q}(\pi, \mu) - \lambda_1 (\sum_{j}^{M}\mu_k(j) - 1) - \lambda_2 (\sum_{i}^{K}\pi_i  - 1) \nonumber \\
+\dfrac{\partial L}{\partial \pi_k} &= \sum_{i = 1}^{N} \tau_{i,k} \frac{1}{\pi_k} - \lambda_2 = 0 \nonumber \\
+sum\  \Rightarrow \ 1& = \sum_{k = 1}^{K} \pi_k = \frac{1}{\lambda_2} \sum_{k = 1}^{K}  \sum_{i = 1}^{N} \tau_{i,k}  \nonumber \\
+\Rightarrow \lambda_2 &= \sum_{k = 1}^{K}  \sum_{i = 1}^{N} \tau_{i,k} \nonumber \\
+plug\ in\Rightarrow \pi_k &= \dfrac{ \sum_{i = 1}^{N} \tau_{i,k}}{\sum_{k = 1}^{K}  \sum_{i = 1}^{N} \tau_{i,k}} \nonumber  \\
+\qquad \nonumber \\
+\dfrac{\partial L}{\partial \mu_k(q)} &=    \sum_{i = 1}^{N} \tau_{i,k} x_i(q) \frac{1}{\mu_k(q)} - \lambda_1 = 0 \nonumber \\
+\Rightarrow \mu_k(q) &= \sum_{i = 1}^{N} \tau_{i,k} x_i(q) \frac{1}{\lambda_1} \nonumber \\
+sum\ \Rightarrow \ 1&=\sum_{q=1}^{M}\mu_k(q) = \sum_{i = 1}^{N} \tau_{i,k} \sum_{q = 1}^{M}x_i(q) \frac{1}{\lambda_1} \nonumber \\
+\Rightarrow \lambda_1 &= \sum_{i = 1}^{N}\tau_{i,k}   \nonumber \\
+plug\ in \Rightarrow  \mu_k(q) &= \sum_{i = 1}^{N}\frac{ \tau_{i,k} x_i(q)}{\sum_{i = 1}^{N}\tau_{i,k}  } \nonumber
+\end{align} 
+
+To conclude, the probability for class $z = k$ is $ \pi_k &= \dfrac{ \sum_{i = 1}^{N} \tau_{i,k}}{\sum_{k = 1}^{K}  \sum_{i = 1}^{N} \tau_{i,k}}$, the probability of $x_i$ which belongs to the class $z = k$ taking on the $q^{th}$ value is $\mu_k(q) &= \dfrac{ \sum_{i = 1}^{N}\tau_{i,k} x_i(q)}{\sum_{i = 1}^{N}\tau_{i,k}  }$.
+
+\section{Problem 2:  clustering}
+Proof: 
+\begin{align}
+\phi(W_1) &= \sum_{x_i \in W_1} \lVert x_i - \mu_{i,1}\rVert^2 \nonumber \\
+\phi(W_2) &= \sum_{x_i \in W_2} \lVert x_i - \mu_{i,2}\rVert^2 \nonumber \\
+\phi(W_1 \cup W_2) &= \sum_{x_i \in (W_1 \cup W_2)} \lVert x_i - \mu_{i,3}\rVert^2 \nonumber 
+\end{align}
+Where $\mu_{i,k}$ is one of the centers for dataset $W_k$, $W_3 = W_1 + W_2$,  consider the iterations of K-means method, $\mu_{i,1} = \min_{\mu_i}\sum_{x_i \in W_1} \lVert x_i - \mu_i\rVert^2$, $\mu_{i,2} = \min_{\mu_i}\sum_{x_i \in W_2} \lVert x_i - \mu_i\rVert^2$, Therefore, we have:
+\begin{align}
+\sum_{x_i \in W_1} \lVert x_i - \mu_{i,1}\rVert^2  +  \sum_{x_i \in W_2} \lVert x_i - \mu_{i,2}\rVert^2  &\leqslant   \sum_{x_i \in W_1} \lVert x_i - \mu_{i,3}\rVert^2 +\sum_{x_i \in W_2} \lVert x_i - \mu_{i,3}\rVert^2  \nonumber \\
+& = \sum_{x_i \in (W_1 \cup W_2)} \lVert x_i - \mu_{i,3}\rVert^2 \nonumber \\
+\qquad \nonumber \\
+\Leftrightarrow \phi(W_1)+\phi(W_2)& \leqslant \phi(W_1 \cup W_2) \nonumber
+\end{align}
+
+\section{Problem 3: MLE and MAP}
+\subsection{a) MLE}
+\begin{align}
+l(\mu) &= \log \prod_{i = 1}^{N} \mathcal{N}(x_i \rvert \mu, \sigma^2) \nonumber \\
+& = \sum_{i = 1}^{N} ( -\frac{1}{2\sigma^2} (x_i - \mu)^2  +C_1 ) \nonumber \\
+\dfrac{\partial l}{\partial \mu} &= \sum_{i = 1}^{N}  \frac{1}{\sigma^2} (x_i - \mu) = 0 \nonumber \\
+\Rightarrow \mu &= \frac{\sum_{i = 1}^{N} x_i}{N} \nonumber 
+\end{align}
+
+\subsection{b) MAP}
+\begin{align}
+l(\mu) & = \log\prod_{i = 1}^{N} \mathcal{N}(x_i \rvert \mu, \sigma^2) + \log \mathcal{N}(\mu \rvert \nu, \beta^2) \nonumber \\
+& = \sum_{i = 1}^{N} ( -\frac{1}{2\sigma^2} (x_i - \mu)^2  +C_1 )+ (-\frac{1}{2\beta^2} (  \mu - \nu)^2 +C_2)  \nonumber \\
+\dfrac{\partial l}{\partial \mu} &= \sum_{i = 1}^{N}  \frac{1}{\sigma^2} (x_i - \mu) - \frac{1}{\beta^2} (  \mu - \nu) = 0 \nonumber \\
+\Rightarrow \mu &= \dfrac{\dfrac{\sum_{i = 1}^{N}x_i}{\sigma^2}+\dfrac{1}{\beta^2}}{\dfrac{N}{\sigma^2} + \dfrac{1}{\beta^2}}  \nonumber \\
+\Rightarrow \mu & =  \dfrac{\sum_{i =1}^{N}x_i \beta^2 + \sigma^2}{N \beta^2 + \sigma^2} \nonumber 
+\end{align}
+
+\subsection{c)}
+When $N \to +\infty$, $\dfrac{\sum_{i =1}^{N}x_i \beta^2 + \sigma^2}{N \beta^2 + \sigma^2} \to \dfrac{\sum_{i =1}^{N}x_i \beta^2 }{N \beta^2}  = \frac{\sum_{i = 1}^{N} x_i}{N}$
+Therefore, there's no difference between the $\mu$'s we derived from a) and b), to sum up, when samples N goes to infinity, the likelihood we observe will not be affected by the hidden prior probability of the parameters.
+
+\end{document}

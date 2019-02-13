@@ -1,0 +1,673 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  21 SEP 2018 00:59
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**hw1ml.tex
+(./hw1ml.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@layoutwidth=\dimen109
+\Gm@layoutheight=\dimen110
+\Gm@layouthoffset=\dimen111
+\Gm@layoutvoffset=\dimen112
+\Gm@dimlist=\toks15
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip43
+\aftertitleunit=\skip44
+\ttl@plus=\dimen113
+\ttl@minus=\dimen114
+\ttl@toksa=\toks18
+\titlewidth=\dimen115
+\titlewidthlast=\dimen116
+\titlewidthfirst=\dimen117
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip45
+\subfigcapskip=\skip46
+\subfigcaptopadj=\dimen118
+\subfigbottomskip=\skip47
+\subfigcapmargin=\dimen119
+\subfiglabelskip=\skip48
+\c@subfigure=\count92
+\c@lofdepth=\count93
+\c@subtable=\count94
+\c@lotdepth=\count95
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip49
+\subfig@bottom=\skip50
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen120
+\captionmargin@=\dimen121
+\captionwidth=\dimen122
+\caption@tempdima=\dimen123
+\caption@indent=\dimen124
+\caption@parindent=\dimen125
+\caption@hangindent=\dimen126
+)
+\c@ContinuedFloat=\count96
+Package caption Info: float package is loaded.
+Package caption Info: subfigure package is loaded.
+)
+Package caption Info: We need package `newfloat' on input line 12.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/newfloat.sty
+Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen127
+))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen128
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count97
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count98
+\leftroot@=\count99
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count100
+\DOTSCASE@=\count101
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen129
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count102
+\c@MaxMatrixCols=\count103
+\dotsspace@=\muskip10
+\c@parentequation=\count104
+\dspbrk@lvl=\count105
+\tag@help=\toks20
+\row@=\count106
+\column@=\count107
+\maxfields@=\count108
+\andhelp@=\toks21
+\eqnshift@=\dimen130
+\alignsep@=\dimen131
+\tagshift@=\dimen132
+\tagwidth@=\dimen133
+\totwidth@=\dimen134
+\lineht@=\dimen135
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (./hw1ml.aux)
+\openout1 = `hw1ml.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+ (/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen136
+\scratchbox=\box31
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen137
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks25
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+<figure/d1.jpg, id=1, 1124.2pt x 843.15pt>
+File: figure/d1.jpg Graphic file (type jpg)
+<use figure/d1.jpg>
+Package pdftex.def Info: figure/d1.jpg  used on input line 31.
+(pdftex.def)             Requested size: 188.21288pt x 141.15935pt.
+<figure/d2.jpg, id=2, 1124.2pt x 843.15pt>
+File: figure/d2.jpg Graphic file (type jpg)
+<use figure/d2.jpg>
+Package pdftex.def Info: figure/d2.jpg  used on input line 34.
+(pdftex.def)             Requested size: 188.21288pt x 141.15935pt.
+<figure/d3.jpg, id=3, 1124.2pt x 843.15pt>
+File: figure/d3.jpg Graphic file (type jpg)
+<use figure/d3.jpg>
+Package pdftex.def Info: figure/d3.jpg  used on input line 39.
+(pdftex.def)             Requested size: 188.21288pt x 141.15935pt.
+<figure/d5.jpg, id=4, 1124.2pt x 843.15pt>
+File: figure/d5.jpg Graphic file (type jpg)
+<use figure/d5.jpg>
+Package pdftex.def Info: figure/d5.jpg  used on input line 42.
+(pdftex.def)             Requested size: 188.21288pt x 141.15935pt.
+
+
+./hw1ml.tex:45: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \begin
+           {figure}[h]
+? 
+<figure/d10.jpg, id=5, 1124.2pt x 843.15pt>
+File: figure/d10.jpg Graphic file (type jpg)
+<use figure/d10.jpg>
+Package pdftex.def Info: figure/d10.jpg  used on input line 50.
+(pdftex.def)             Requested size: 188.21288pt x 141.15935pt.
+<figure/d20.jpg, id=6, 1124.2pt x 843.15pt>
+File: figure/d20.jpg Graphic file (type jpg)
+<use figure/d20.jpg>
+Package pdftex.def Info: figure/d20.jpg  used on input line 54.
+(pdftex.def)             Requested size: 188.21288pt x 141.15935pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+./hw1ml.tex:57: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \begin
+           {figure}[h]
+? 
+<figure/d30.jpg, id=7, 1124.2pt x 843.15pt>
+File: figure/d30.jpg Graphic file (type jpg)
+<use figure/d30.jpg>
+Package pdftex.def Info: figure/d30.jpg  used on input line 61.
+(pdftex.def)             Requested size: 188.21288pt x 141.15935pt.
+<figure/d40.jpg, id=8, 1124.2pt x 843.15pt>
+File: figure/d40.jpg Graphic file (type jpg)
+<use figure/d40.jpg>
+Package pdftex.def Info: figure/d40.jpg  used on input line 64.
+(pdftex.def)             Requested size: 188.21288pt x 141.15935pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+./hw1ml.tex:67: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 O
+      bviously the functions from \ref{Fig.sub.1} and \ref{Fig.sub.2} best f...
+
+? 
+Package epstopdf Info: Source file: <figure/loss-p_p1.eps>
+(epstopdf)                    date: 2018-09-18 21:00:25
+(epstopdf)                    size: 17222 bytes
+(epstopdf)             Output file: <figure/loss-p_p1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-19 12:01:07
+(epstopdf)                    size: 6970 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/loss-p_p1-eps-conve
+rted-to.pdf figure/loss-p_p1.eps>
+(epstopdf)             \includegraphics on input line 73.
+Package epstopdf Info: Output file is already uptodate.
+<figure/loss-p_p1-eps-converted-to.pdf, id=9, 562.1pt x 421.575pt>
+File: figure/loss-p_p1-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/loss-p_p1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/loss-p_p1-eps-converted-to.pdf  used on input l
+ine 73.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+Package epstopdf Info: Source file: <figure/overlaid_p1.eps>
+(epstopdf)                    date: 2018-09-18 21:00:02
+(epstopdf)                    size: 100605 bytes
+(epstopdf)             Output file: <figure/overlaid_p1-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-19 12:01:07
+(epstopdf)                    size: 33126 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/overlaid_p1-eps-con
+verted-to.pdf figure/overlaid_p1.eps>
+(epstopdf)             \includegraphics on input line 77.
+Package epstopdf Info: Output file is already uptodate.
+<figure/overlaid_p1-eps-converted-to.pdf, id=10, 562.1pt x 421.575pt>
+File: figure/overlaid_p1-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/overlaid_p1-eps-converted-to.pdf>
+Package pdftex.def Info: figure/overlaid_p1-eps-converted-to.pdf  used on input
+ line 77.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--80
+
+ []
+
+[1
+
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
+e/d1.jpg> <./figure/d2.jpg> <./figure/d3.jpg> <./figure/d5.jpg>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package epstopdf Info: Source file: <figure/regularization.eps>
+(epstopdf)                    date: 2018-09-19 11:57:19
+(epstopdf)                    size: 85934 bytes
+(epstopdf)             Output file: <figure/regularization-eps-converted-to.pdf
+>
+(epstopdf)                    date: 2018-09-19 12:01:08
+(epstopdf)                    size: 33423 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/regularization-eps-
+converted-to.pdf figure/regularization.eps>
+(epstopdf)             \includegraphics on input line 91.
+Package epstopdf Info: Output file is already uptodate.
+<figure/regularization-eps-converted-to.pdf, id=20, 562.1pt x 421.575pt>
+File: figure/regularization-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/regularization-eps-converted-to.pdf>
+Package pdftex.def Info: figure/regularization-eps-converted-to.pdf  used on in
+put line 91.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+Package epstopdf Info: Source file: <figure/regularizationlambda.eps>
+(epstopdf)                    date: 2018-09-19 11:57:46
+(epstopdf)                    size: 82157 bytes
+(epstopdf)             Output file: <figure/regularizationlambda-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2018-09-19 12:01:12
+(epstopdf)                    size: 26072 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/regularizationlambd
+a-eps-converted-to.pdf figure/regularizationlambda.eps>
+(epstopdf)             \includegraphics on input line 95.
+Package epstopdf Info: Output file is already uptodate.
+<figure/regularizationlambda-eps-converted-to.pdf, id=21, 562.1pt x 421.575pt>
+File: figure/regularizationlambda-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/regularizationlambda-eps-converted-to.pdf>
+Package pdftex.def Info: figure/regularizationlambda-eps-converted-to.pdf  used
+ on input line 95.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./figure/d10.jpg> <./figure/d20.jpg> <./figure/d30.jpg> <./figure/d40.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+[3 <./figure/loss-p_p1-eps-converted-to.pdf> <./figure/overlaid_p1-eps-converte
+d-to.pdf> <./figure/regularization-eps-converted-to.pdf> <./figure/regularizati
+onlambda-eps-converted-to.pdf>]
+./hw1ml.tex:118: Text line contains an invalid character.
+l.118 Therefore,  its inverse is given by $g^^@
+                                               ^{-1}(y) = \ln{(y/(1-^^@ y))}$.
+? 
+./hw1ml.tex:118: Text line contains an invalid character.
+l.118 ...is given by $g^^@^{-1}(y) = \ln{(y/(1-^^@
+                                                   y))}$.
+? 
+./hw1ml.tex:142: Undefined control sequence.
+<recently read> \ita 
+                     
+l.142 ...erance $\epsilon = 0.001$ and steps $\ita
+                                                   = 1$, the 2D X binary bou...
+
+? 
+[4]
+Package epstopdf Info: Source file: <figure/4_1(2).eps>
+(epstopdf)                    date: 2018-09-21 00:36:36
+(epstopdf)                    size: 42031 bytes
+(epstopdf)             Output file: <figure/4_1(2)-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-21 00:37:24
+(epstopdf)                    size: 12482 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/4_1(2)-eps-converte
+d-to.pdf figure/4_1(2).eps>
+(epstopdf)             \includegraphics on input line 152.
+Package epstopdf Info: Output file is already uptodate.
+<figure/4_1(2)-eps-converted-to.pdf, id=74, 562.1pt x 421.575pt>
+File: figure/4_1(2)-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/4_1(2)-eps-converted-to.pdf>
+Package pdftex.def Info: figure/4_1(2)-eps-converted-to.pdf  used on input line
+ 152.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+Package epstopdf Info: Source file: <figure/4_1(1).eps>
+(epstopdf)                    date: 2018-09-20 23:04:27
+(epstopdf)                    size: 787521 bytes
+(epstopdf)             Output file: <figure/4_1(1)-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-21 00:37:24
+(epstopdf)                    size: 178336 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/4_1(1)-eps-converte
+d-to.pdf figure/4_1(1).eps>
+(epstopdf)             \includegraphics on input line 156.
+Package epstopdf Info: Output file is already uptodate.
+<figure/4_1(1)-eps-converted-to.pdf, id=75, 562.1pt x 421.575pt>
+File: figure/4_1(1)-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/4_1(1)-eps-converted-to.pdf>
+Package pdftex.def Info: figure/4_1(1)-eps-converted-to.pdf  used on input line
+ 156.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+
+./hw1ml.tex:159: Undefined control sequence.
+<recently read> \ita 
+                     
+l.159 ...erance $\epsilon = 0.001$ and steps $\ita
+                                                   = 2$, the model will be a...
+
+? 
+Package epstopdf Info: Source file: <figure/4_2(2).eps>
+(epstopdf)                    date: 2018-09-21 00:37:07
+(epstopdf)                    size: 42041 bytes
+(epstopdf)             Output file: <figure/4_2(2)-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-21 00:37:25
+(epstopdf)                    size: 12565 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/4_2(2)-eps-converte
+d-to.pdf figure/4_2(2).eps>
+(epstopdf)             \includegraphics on input line 169.
+Package epstopdf Info: Output file is already uptodate.
+<figure/4_2(2)-eps-converted-to.pdf, id=76, 562.1pt x 421.575pt>
+File: figure/4_2(2)-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/4_2(2)-eps-converted-to.pdf>
+Package pdftex.def Info: figure/4_2(2)-eps-converted-to.pdf  used on input line
+ 169.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+Package epstopdf Info: Source file: <figure/4_2(1).eps>
+(epstopdf)                    date: 2018-09-20 23:57:20
+(epstopdf)                    size: 236611 bytes
+(epstopdf)             Output file: <figure/4_2(1)-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-21 00:37:25
+(epstopdf)                    size: 62543 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/4_2(1)-eps-converte
+d-to.pdf figure/4_2(1).eps>
+(epstopdf)             \includegraphics on input line 173.
+Package epstopdf Info: Output file is already uptodate.
+<figure/4_2(1)-eps-converted-to.pdf, id=77, 562.1pt x 421.575pt>
+File: figure/4_2(1)-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/4_2(1)-eps-converted-to.pdf>
+Package pdftex.def Info: figure/4_2(1)-eps-converted-to.pdf  used on input line
+ 173.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+./hw1ml.tex:176: Undefined control sequence.
+<recently read> \ita 
+                     
+l.176 ...erance $\epsilon = 0.001$ and steps $\ita
+                                                   = 1$, the model will be a...
+
+? 
+Package epstopdf Info: Source file: <figure/4_3(2).eps>
+(epstopdf)                    date: 2018-09-21 00:36:08
+(epstopdf)                    size: 42029 bytes
+(epstopdf)             Output file: <figure/4_3(2)-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-21 00:37:26
+(epstopdf)                    size: 12477 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/4_3(2)-eps-converte
+d-to.pdf figure/4_3(2).eps>
+(epstopdf)             \includegraphics on input line 186.
+Package epstopdf Info: Output file is already uptodate.
+<figure/4_3(2)-eps-converted-to.pdf, id=78, 562.1pt x 421.575pt>
+File: figure/4_3(2)-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/4_3(2)-eps-converted-to.pdf>
+Package pdftex.def Info: figure/4_3(2)-eps-converted-to.pdf  used on input line
+ 186.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+Package epstopdf Info: Source file: <figure/4_3(1).eps>
+(epstopdf)                    date: 2018-09-21 00:07:01
+(epstopdf)                    size: 788278 bytes
+(epstopdf)             Output file: <figure/4_3(1)-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-09-21 00:37:26
+(epstopdf)                    size: 174215 bytes
+(epstopdf)             Command: <repstopdf --outfile=figure/4_3(1)-eps-converte
+d-to.pdf figure/4_3(1).eps>
+(epstopdf)             \includegraphics on input line 190.
+Package epstopdf Info: Output file is already uptodate.
+<figure/4_3(1)-eps-converted-to.pdf, id=79, 562.1pt x 421.575pt>
+File: figure/4_3(1)-eps-converted-to.pdf Graphic file (type pdf)
+<use figure/4_3(1)-eps-converted-to.pdf>
+Package pdftex.def Info: figure/4_3(1)-eps-converted-to.pdf  used on input line
+ 190.
+(pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./figure/4_1(2)-eps-converted-to.pdf> <./figure/4_1(1)-eps-converted-to.pdf
+> <./figure/4_2(2)-eps-converted-to.pdf> <./figure/4_2(1)-eps-converted-to.pdf>
+] [6 <./figure/4_3(2)-eps-converted-to.pdf> <./figure/4_3(1)-eps-converted-to.p
+df>] (./hw1ml.aux) ) 
+Here is how much of TeX's memory you used:
+ 4808 strings out of 492649
+ 71722 string characters out of 6129622
+ 155283 words of memory out of 5000000
+ 8610 multiletter control sequences out of 15000+600000
+ 12694 words of font info for 45 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,12n,38p,322b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmmi10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+2.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.p
+fb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
+local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/lo
+cal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on hw1ml.pdf (6 pages, 1051328 bytes).
+PDF statistics:
+ 190 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+
