@@ -1,0 +1,92 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{enumerate}
+
+\DeclareMathOperator*{\E}{\mathbb{E}}
+\let\Pr\relax
+\DeclareMathOperator*{\Pr}{\mathbb{P}}
+
+\newcommand{\eps}{\varepsilon}
+\newcommand{\inprod}[1]{\left\langle #1 \right\rangle}
+\newcommand{\R}{\mathbb{R}}
+
+\newcommand{\handout}[5]{
+  \noindent
+  \begin{center}
+  \framebox{
+    \vbox{
+      \hbox to 5.78in { {\bf ECE-GY 9223 Reinforcement Learning} \hfill #2 }
+      \vspace{4mm}
+      \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+      \vspace{2mm}
+      \hbox to 5.78in { {\em #3 \hfill #4} }
+    }
+  }
+  \end{center}
+  \vspace*{4mm}
+}
+
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{Name: #4}{ #1}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{observation}[theorem]{Observation}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{assumption}[theorem]{Assumption}
+
+% 1-inch margins, from fullpage.sty by H.Partl, Version 2, Dec. 15, 1988.
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+\textheight 8.9in
+\oddsidemargin 0pt
+\evensidemargin \oddsidemargin
+\marginparwidth 0.5in
+\textwidth 6.5in
+
+\parindent 0in
+\parskip 1.5ex
+
+\begin{document}
+
+\lecture{Research Project Proposal}{Spring 2019}{Prof.\ Quanyan Zhu}{Yunian Pan}
+
+\section{Introduction}
+ 
+In reinforcement learning, for small problems, the value function can be represented as a table. However, the large, probabilistic domains which arise in the real-world usually require coupling TD methods with a function approximator, which represents the mapping from state-action pairs to values via a more concise, parameterized function and uses supervised learning methods to set its parameters.
+
+The goal is to automate the search for effective representations by employing sophisticated op- timization techniques, with approach requires only 1) an evolutionary algorithm capable of optimizing representations from a class of functions and 2) a TD method that uses elements of that class for function approximation.
+
+My work will focus on how to use different Policy Search Methods and reduce sample comlexity.
+
+\section{Motivation}
+
+TD methods could be combined with many different methods in the same way they are combined with evolutionary computation;
+
+One disadvantage of evolutionary function approximation is its high sample complexity, since each fitness evaluation lasts for many episodes.
+
+
+
+\section{My Plan}
+
+\begin{enumerate}[(a)]
+\item Mar.29th $\to$ Apr.15th: 2 weeks for reading and theoretical derivation, 
+\item Apr.16th $\to$ Apr.29th: 1 week for implementation and simulation, 
+\item Apr.30th $\to$ May.8th: 1 week for report writing and presentation.
+\end{enumerate}
+
+\bibliographystyle{alpha}
+
+\begin{thebibliography}{42}
+
+\bibitem{1}
+Whiteson, Shimon, and Peter Stone. "Evolutionary function approximation for reinforcement learning." Journal of Machine Learning Research 7.May (2006): 877-917.
+
+
+\end{thebibliography}
+
+\end{document}

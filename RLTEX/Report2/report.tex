@@ -1,0 +1,300 @@
+
+
+\documentclass[journal]{IEEEtran}
+
+\usepackage{aligned-overset}
+
+\usepackage{listings} 
+\usepackage{bera} 
+
+\usepackage[ruled]{algorithm2e}
+
+\usepackage{dsfont}
+\usepackage[export]{adjustbox}
+
+
+
+\usepackage{MnSymbol}%
+\usepackage{wasysym}%
+
+\usepackage{booktabs} 
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+
+
+
+
+
+
+
+
+
+
+\ifCLASSINFOpdf
+ 
+\else
+
+\fi
+
+
+
+
+
+%
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document}
+
+
+
+\title{Report for Research Project\\ Evolutionary Function Approximation for Reinforcement Learning }
+
+
+
+
+
+\author{Yunian Pan}
+
+
+
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract or keywords.
+\begin{abstract}
+
+This Report presents the substances of the paper "Evolutionary Function Approximation for Reinforcement Learning", in the context that
+temporal difference methods are theoretically grounded and empirically effective methods for ad- dressing reinforcement learning problems,
+and as we move towards a era of deep learning that in most real-world reinforcement learning tasks, 
+TD methods require a function approximator to represent the value function. However, using function approximators
+ requires manually making crucial representational decisions. The related papers investigates evolutionary function approximation, 
+ a novel approach to automatically selecting function approximator representations that enable efficient individual learning. 
+ The method, which naturally arises from genetic algorithm schemes, evolves individuals that are better able to learn. 
+ 
+ A fully implemented instantiation of evolutionary function approximation which combines NEAT, a neuroevolutionary optimization technique,
+  with Q-learning, a popular TD method was presented in paper $\cite{EVO}$, The resulting NEAT+Q algorithm automatically discovers effective
+  representations for neural network function approximators. This paper also presents on-line evolutionary computation, which improves
+   the on-line performance of evolutionary computation by borrowing selection mechanisms used in TD methods to choose individual actions
+    and using them in evolutionary computation to select policies for evaluation. 
+
+  Also some online searching scheme has been proposed in this paper based on epsilon greedy method or Boltzmann distribution, which improves 
+  the on-line performance of evolutionary computation by borrowing selection mechanisms used in TD methods to choose individual actions 
+  and using them in evolutionary computation to select policies for evaluation. Two empirical experiments were evaluated and discussed
+  in this paper, it also presents additional tests that offer insight into what factors can make neural network function approximation difficult in practice.
+
+
+
+
+\end{abstract}
+\ \\
+% Note that keywords are not normally used for peerreview papers.
+\begin{IEEEkeywords}
+  reinforcement learning, temporal difference methods, NEAT, Q-learning, Online evolutionary computation
+\end{IEEEkeywords}
+
+
+
+
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+\IEEEpeerreviewmaketitle
+
+
+
+\section{Introduction}
+
+\ \\
+
+\IEEEPARstart{R}{einforcement} problems are the subset of machine learning tasks in which the agent never sees examples of correct behavior. Instead, it receives only positive and negative rewards for the actions it tries.
+ Since many practical, real world problems (such as robot control, game playing, and system optimization) fall in this category, developing effective reinforcement learning algorithms is critical to the 
+ progress of artificial intelligence.
+
+ The most common approach to reinforcement learning relies on the concept of value functions, which indicate, for a particular policy, the long-term value of a given state or state-action pair. Temporal difference methods (TD($\lambda$)) (Sutton, 1988),
+which combine principles of dynamic programming with statistical sampling, use the immediate rewards received by the agent to incrementally improve both the agent’s policy and the estimated 
+ value function for that policy. Hence, TD methods enable an agent to learn during its “lifetime” i.e. from its individual experience interacting with the environment.
+
+When the problem scale is not large, the value function can be represented as a table of state-action pairs, but for large scale systems or for problems that has infinite dimension of 
+state space or action space, it remains problematic to only use a "table", instead the function approximator which represents the mapping from state-action pairs to values via a more concise,
+parameterized function and uses supervised learning methods to set its parameters, plays an important role where we can omit the step of enumering over
+the state-action space.  Many different methods of function approximation have been used successfully, including CMACs, radial basis functions, and neural networks.
+
+However, using function approximators requires making crucial representational decisions (e.g. the number of hidden units and ini- tial weights of a neural network. 
+Poor design choices can result in estimates that diverge from the optimal value function and agents that perform poorly. Even for reinforcement learning algorithms 
+with guaranteed convergence, achieving high performance in practice requires finding an appropriate representation for the function approximator. 
+
+As Lagoudakis and Parr observe,$^{\cite{EVO}}$ “The crucial factor for a successful ap- proximate algorithm is the choice of the parametric approximation architecture(s) and the choice of the projection (parameter adjustment) method.” (Lagoudakis and Parr, 2003, p. 1111) Nonetheless, representational choices are typically made manually, based only on the designer’s intuition.
+
+Therefore, in order to automate the search for effective representations by employing sophisticated optimization techniques, we focus on using evolutionary methods 
+because of their demonstrated ability to discover effective representations, so that our proposition can cover the 2 things: 1) an evolutionary algorithm capable of optimizing representations from a class of functions; 2) a TD method that uses elements of that class for function approximation. 
+
+Neural network is a good choice as hey have great experimental value, Nonlinear function approximators are often the most challenging to use, hence, success for evolutionary function approximation with neural networks is good reason to hope for success with linear methods too;
+and they have great potential in that they can represent value functions that the linear method cannot(given the same basis functions). Therefore NeuroEvolution of Augmenting Topologies(NEAT)$^{\cite{STA}}$ has been chosen as the main 
+framework. The resulting algorithm, called NEAT+Q, uses NEAT to evolve topologies and initial weights of neural networks that are better able to learn, via backpropagation, to represent the value estimates provided by Q-learning.
+
+Section 2 will present the background including Q-learning and deep Q-learning, genetic algorithms and NEAT framework and NEAT algorithm for reinforcement learning and some basic related experiments;
+Section 3 will present the new emerging method that incorporates the previous algorithm together, along with the experiments and discussion.
+Section 4 will have some discussion over the results obtained from the experiments.
+
+ 
+
+\section{Background}
+\ \\
+This section mainly contains 2 part, one is for the development of Q-learning, Deep Q learning, and some variance of them; The another will discuss the 
+machinery and framework and using NEAT to do reinforcement learning.
+
+
+\subsection{From Q-learning to Deep Q-learning}
+
+\subsubsection{Q-learning}
+
+ As a model-free algorithm, Q-learning trains the agent what action to take under what circumstances, is a well-established, canonical method that has also enjoyed empirical success,
+ particularly when combined with neural network function approximators, 
+
+
+
+  
+
+
+\subsection{From genetic algorithm to NEAT}
+
+
+
+\subsubsection{}
+
+
+
+
+
+
+
+\subsection{Experiments}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\subsection{Final conclusion}
+
+
+% if have a single appendix:
+%\appendix[Proof of the Zonklar Equations]
+% or
+%\appendix  % for no appendix headi
+% do not use \section anymore after \appendix, only \section*
+% is possibly needed
+
+% use appendices with more than one appendix
+% then use \section to start each appendix
+% you must declare a \section before using any
+% \subsection or using \label (\appendices by itself
+% starts a section numbered zero.)
+%
+
+
+
+
+% you can choose not to have a title for an appendix
+% if you want by leaving the argument blank
+
+
+
+% use section* for acknowledgment
+
+
+
+% Can use something like this to put references on a page
+% by themselves when using endfloat and the captionsoff option.
+\ifCLASSOPTIONcaptionsoff
+  \newpage
+\fi
+
+
+
+% trigger a \newpage just before the given reference
+% number - used to balance the columns on the last page
+% adjust value as needed - may need to be readjusted if
+% the document is modified later
+%\IEEEtriggeratref{8}
+% The "triggered" command can be changed if desired:
+%\IEEEtriggercmd{\enlargethispage{-5in}}
+
+% references section
+
+% can use a bibliography generated by BibTeX as a .bbl file
+% BibTeX documentation can be easily obtained at:
+% http://mirror.ctan.org/biblio/bibtex/contrib/doc/
+% The IEEEtran BibTeX style support page is at:
+% http://www.michaelshell.org/tex/ieeetran/bibtex/
+%\bibliographystyle{IEEEtran}
+% argument is your BibTeX string definitions and bibliography database(s)
+%\bibliography{IEEEabrv,../bib/paper}
+%
+% <OR> manually copy in the resultant .bbl file
+% set second argument of \begin to the number of references
+% (used to reserve space for the reference number labels box)
+\begin{thebibliography}{1}
+
+\bibitem{EVO}Whiteson, Shimon, and Peter Stone. "Evolutionary function approximation for reinforcement learning." Journal of Machine Learning Research 7.May (2006): 877-917.
+
+\bibitem{STA}Stanley, Kenneth O., and Risto Miikkulainen. "Efficient reinforcement learning through evolving neural network topologies." Proceedings of the 4th Annual Conference on Genetic and Evolutionary Computation. Morgan Kaufmann Publishers Inc., 2002.
+\end{thebibliography}
+
+
+
+
+
+\end{document}
+
+

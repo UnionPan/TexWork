@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{mathrsfs}
+
+\DeclareMathOperator*{\E}{\mathbb{E}}
+\let\Pr\relax
+\DeclareMathOperator*{\Pr}{\mathbb{P}}
+
+\newcommand{\eps}{\varepsilon}
+\newcommand{\inprod}[1]{\left\langle #1 \right\rangle}
+\newcommand{\R}{\mathbb{R}}
+
+\newcommand{\handout}[5]{
+  \noindent
+  \begin{center}
+  \framebox{
+    \vbox{
+      \hbox to 5.78in { {\bf ECE-GY 9223 Reinforcement Learning} \hfill #2 }
+      \vspace{4mm}
+      \hbox to 5.78in { {\Large \hfill #5  \hfill} }
+      \vspace{2mm}
+      \hbox to 5.78in { {\em #3 \hfill #4} }
+    }
+  }
+  \end{center}
+  \vspace*{4mm}
+}
+
+\newcommand{\lecture}[4]{\handout{#1}{#2}{#3}{Scribe: #4}{ #1}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{observation}[theorem]{Observation}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{fact}[theorem]{Fact}
+\newtheorem{assumption}[theorem]{Assumption}
+
+% 1-inch margins, from fullpage.sty by H.Partl, Version 2, Dec. 15, 1988.
+\topmargin 0pt
+\advance \topmargin by -\headheight
+\advance \topmargin by -\headsep
+\textheight 8.9in
+\oddsidemargin 0pt
+\evensidemargin \oddsidemargin
+\marginparwidth 0.5in
+\textwidth 6.5in
+
+\parindent 0in
+\parskip 1.5ex
+
+\begin{document}
+
+\lecture{Homework Prelim}{Spring 2019}{Prof.\ Quanyan Zhu}{Yunian Pan}
+
+\section{concepts of sequence and series}
+
+\subsection{Problem 1.}
+
+Proof:
+\begin{enumerate}
+\item {\em } -- $\lim \sup a_n = \lim_{N \to \infty} (\sup \{a_n: n> N\} )$, $\lim \inf a_n = \lim_{N \to \infty} (\inf \{a_n: n>N \})$.
+\item {\em } -- suppose $\sup a_n = M_n$, the sufficiency: $M_n \leqslant b \implies \forall \epsilon > 0 \ \exists  N \in \mathbb{N} \ s.t. \forall n>N \ |a_n - M| < \epsilon  \implies a_n < M + \epsilon \implies a_n < b + \epsilon$; The necessity: $\forall \epsilon > 0 \ \exists  N \in \mathbb{N} \ s.t. \forall n>N \ a_n - b < \epsilon  \implies |a_n -b|< \epsilon \implies \lim_{n \to \infty} M_n \leqslant b $
+\item {\em } -- Let $a_{n_k}$ denotes the subsequence of $a_n$ which converges to $\alpha$, it's clear that $n_k \geqslant k \forall k \in \mathbb{N}$, because $\exists N \in \mathbb{N} \ a_n < \alpha \ \forall n>N $, thus $\lim_{n_k \to \infty} a_{n_k} = \alpha$ since for all N we pick $\exists n_k > N$.
+\end{enumerate}
+
+
+\subsection{Problem 2.}
+
+Proof: 
+\begin{enumerate}
+\item {\em } -- $\sum^{\infty}_{n = 1} a_n$ converges, $\lim_{n \to \infty}a_n = 0$, hence for somewhere $n > N$, we have $0<a_n < 1 \implies a_n^2 < a_n \implies \sum^{\infty}_{n = 1} a_n^2$ converges.
+\item {\em } --  $\sum^{\infty}_{n = 1} |a_n|$ converges, $\lim_{n \to \infty}|a_n| = 0$, hence for somewhere $n > N$, we have $0<|a_n| < 1 \implies a_n^2 < |a_n| \implies \sum^{\infty}_{n = 1} a_n^2$ converges.
+\item {\em } -- 1. $a_n = \frac{1}{n}$; 2. $a_n = \frac{2n+3}{n (n-1)}$
+\end{enumerate}
+
+
+\subsection{Problem 3.}
+
+
+\section{Review concepts on the convergence of random variables}
+
+\subsection{Blah blah blah}
+Here is a subsection.
+
+\subsubsection{Blah blah blah}
+Here is a subsubsection. You can use these as well.
+
+\subsection{Using Boldface}
+Make sure to use \textbf{lots} of {\bf boldface}.
+
+\paragraph{Question:}
+How would you use boldface?
+
+\paragraph{Example:}
+This is an example showing how to use boldface to 
+help organize your lectures.
+
+
+\paragraph{Some Formatting.}
+Here is some formatting that you can use in your notes:
+\begin{itemize}
+\item {\em Item One} -- This is the first item.
+\item {\em Item Two} -- This is the second item.
+\item \dots and here are other items.
+\end{itemize}
+
+If you need to number things, you can use this style:
+\begin{enumerate}
+\item {\em Item One} -- Again, this is the first item.
+\item {\em Item Two} -- Again, this is the second item.
+\item \dots and here are other items.
+\end{enumerate}
+
+\paragraph{Bibliography.}
+Please give real bibliographical citations for the papers that we
+mention in class. See below for how to include a bibliography section.
+If you use BibTeX, integrate the .bbl file into your .tex
+source. You should reference papers like this: ``Roger Myerson in \cite{1} demonstrated
+in a bargaining application that ex post
+efficiency can be incompatible with the
+ex ante incentives of the parties individually.''
+In general, the name of the authors should appear in text at most once 
+(for the first citation); further citations look like: ``Our proof follows 
+that of \cite{1}''.
+
+Take a look at previous lectures (TeX files are available) to see the
+details. A excellent source for bibliographical citations is
+DBLP. Just Google DBLP and an author's name.
+
+
+\bibliographystyle{alpha}
+
+\begin{thebibliography}{42}
+
+\bibitem{1}
+Theodorou, Evangelos, Jonas Buchli, and Stefan Schaal. "A generalized path integral control approach to reinforcement learning." journal of machine learning research 11.Nov (2010): 3137-3181.	
+
+
+\end{thebibliography}
+
+\end{document}

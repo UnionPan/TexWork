@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  10 FEB 2019 17:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  19 FEB 2019 17:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**hw1.tex
-(./hw1.tex
+**/Users/union/Documents/texwork/MLTEX/ht1/hw1.tex
+(/Users/union/Documents/texwork/MLTEX/ht1/hw1.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -23,19 +23,15 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -47,39 +43,30 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 )
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/03/24 v5.7 Page Geometry
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -94,16 +81,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen111
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks15
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count91
 \float@exts=\toks16
 \float@box=\box26
 \@float@everytoks=\toks17
 \@floatcapt=\box27
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \ttl@box=\box28
 \beforetitleunit=\skip43
@@ -114,8 +99,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \titlewidth=\dimen115
 \titlewidthlast=\dimen116
 \titlewidthfirst=\dimen117
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
 Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfigtopskip=\skip45
 \subfigcapskip=\skip46
@@ -134,11 +118,9 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (/usr/local/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip49
 \subfig@bottom=\skip50
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 67.
 \captionmargin=\dimen120
@@ -154,28 +136,23 @@ Package caption Info: float package is loaded.
 Package caption Info: subfigure package is loaded.
 )
 Package caption Info: We need package `newfloat' on input line 12.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/caption/newfloat.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/caption/newfloat.sty
 Package: newfloat 2015/09/17 v1.1-109 Defining new floating environments (AR)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip51
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen127
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen128
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count97
@@ -215,29 +192,25 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip54
 \enit@outerparindent=\dimen136
 \enit@toks=\toks24
 \enit@inbox=\box31
 \enitdp@description=\count109
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup6
-) (./hw1.aux)
+) (/Users/union/Documents/texwork/MLTEX/ht1/hw1.aux)
 \openout1 = `hw1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -267,29 +240,21 @@ LaTeX Font Info:    ... okay on input line 19.
 \everyMPtoPDFconversion=\toks26
 ) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+))) (/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+ (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -297,25 +262,19 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)))
-(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
-)
+))) (/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO)
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 438.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -358,18 +317,15 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 23.
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 23.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+rsfs on input line 23.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
@@ -380,8 +336,7 @@ Package epstopdf Info: Source file: <1_1.eps>
 (epstopdf)             Output file: <1_1-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 12:46:59
 (epstopdf)                    size: 25693 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_1-eps-converted-to.pdf 1
-_1.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_1-eps-converted-to.pdf 1_1.eps>
 (epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 <1_1-eps-converted-to.pdf, id=1, 562.1pt x 421.575pt>
@@ -395,8 +350,7 @@ Package epstopdf Info: Source file: <1_2.eps>
 (epstopdf)             Output file: <1_2-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 12:47:00
 (epstopdf)                    size: 31846 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_2-eps-converted-to.pdf 1
-_2.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_2-eps-converted-to.pdf 1_2.eps>
 (epstopdf)             \includegraphics on input line 36.
 Package epstopdf Info: Output file is already uptodate.
 <1_2-eps-converted-to.pdf, id=2, 562.1pt x 421.575pt>
@@ -410,8 +364,7 @@ Package epstopdf Info: Source file: <1_3.eps>
 (epstopdf)             Output file: <1_3-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 12:47:00
 (epstopdf)                    size: 31707 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_3-eps-converted-to.pdf 1
-_3.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_3-eps-converted-to.pdf 1_3.eps>
 (epstopdf)             \includegraphics on input line 44.
 Package epstopdf Info: Output file is already uptodate.
 <1_3-eps-converted-to.pdf, id=3, 562.1pt x 421.575pt>
@@ -425,8 +378,7 @@ Package epstopdf Info: Source file: <1_4.eps>
 (epstopdf)             Output file: <1_4-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 12:47:01
 (epstopdf)                    size: 31764 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_4-eps-converted-to.pdf 1
-_4.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_4-eps-converted-to.pdf 1_4.eps>
 (epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 <1_4-eps-converted-to.pdf, id=4, 562.1pt x 421.575pt>
@@ -440,8 +392,7 @@ Package epstopdf Info: Source file: <1_5.eps>
 (epstopdf)             Output file: <1_5-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 12:47:01
 (epstopdf)                    size: 31473 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_5-eps-converted-to.pdf 1
-_5.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_5-eps-converted-to.pdf 1_5.eps>
 (epstopdf)             \includegraphics on input line 55.
 Package epstopdf Info: Output file is already uptodate.
 <1_5-eps-converted-to.pdf, id=5, 562.1pt x 421.575pt>
@@ -455,8 +406,7 @@ Package epstopdf Info: Source file: <1_6.eps>
 (epstopdf)             Output file: <1_6-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 12:47:01
 (epstopdf)                    size: 31014 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_6-eps-converted-to.pdf 1
-_6.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_6-eps-converted-to.pdf 1_6.eps>
 (epstopdf)             \includegraphics on input line 58.
 Package epstopdf Info: Output file is already uptodate.
 <1_6-eps-converted-to.pdf, id=6, 562.1pt x 421.575pt>
@@ -464,14 +414,26 @@ File: 1_6-eps-converted-to.pdf Graphic file (type pdf)
 <use 1_6-eps-converted-to.pdf>
 Package pdftex.def Info: 1_6-eps-converted-to.pdf  used on input line 58.
 (pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+
+
+LaTeX Warning: Reference `Fig.sub.1' on page 1 undefined on input line 61.
+
+
+LaTeX Warning: Reference `Fig.sub.2' on page 1 undefined on input line 61.
+
+
+LaTeX Warning: Reference `Fig.sub.3' on page 1 undefined on input line 61.
+
+
+LaTeX Warning: Reference `Fig.sub.4' on page 1 undefined on input line 61.
+
 Package epstopdf Info: Source file: <1_7.eps>
 (epstopdf)                    date: 2019-02-09 14:28:10
 (epstopdf)                    size: 15873 bytes
 (epstopdf)             Output file: <1_7-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 12:47:02
 (epstopdf)                    size: 6662 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_7-eps-converted-to.pdf 1
-_7.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_7-eps-converted-to.pdf 1_7.eps>
 (epstopdf)             \includegraphics on input line 70.
 Package epstopdf Info: Output file is already uptodate.
 <1_7-eps-converted-to.pdf, id=7, 562.1pt x 421.575pt>
@@ -485,8 +447,7 @@ Package epstopdf Info: Source file: <1_8.eps>
 (epstopdf)             Output file: <1_8-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 12:47:02
 (epstopdf)                    size: 34308 bytes
-(epstopdf)             Command: <repstopdf --outfile=1_8-eps-converted-to.pdf 1
-_8.eps>
+(epstopdf)             Command: <repstopdf --outfile=1_8-eps-converted-to.pdf 1_8.eps>
 (epstopdf)             \includegraphics on input line 74.
 Package epstopdf Info: Output file is already uptodate.
 <1_8-eps-converted-to.pdf, id=8, 562.1pt x 421.575pt>
@@ -501,18 +462,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--77
 
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./1_1-e
-ps-converted-to.pdf> <./1_2-eps-converted-to.pdf>] [2 <./1_3-eps-converted-to.p
-df> <./1_4-eps-converted-to.pdf> <./1_5-eps-converted-to.pdf> <./1_6-eps-conver
-ted-to.pdf> <./1_7-eps-converted-to.pdf> <./1_8-eps-converted-to.pdf>]
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/union/Documents/texwork/MLTEX/ht1/1_1-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/1_2-eps-converted-to.pdf>] [2 </Users/union/Documents/texwork/MLTEX/ht1/1_3-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/1_4-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/1_5-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/1_6-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/1_7-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/1_8-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `42(2)' on page 3 undefined on input line 102.
+
+
+LaTeX Warning: Reference `42(1)' on page 3 undefined on input line 102.
+
 Package epstopdf Info: Source file: <2_1.eps>
 (epstopdf)                    date: 2019-02-09 16:44:16
 (epstopdf)                    size: 236416 bytes
 (epstopdf)             Output file: <2_1-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 13:21:00
 (epstopdf)                    size: 63001 bytes
-(epstopdf)             Command: <repstopdf --outfile=2_1-eps-converted-to.pdf 2
-_1.eps>
+(epstopdf)             Command: <repstopdf --outfile=2_1-eps-converted-to.pdf 2_1.eps>
 (epstopdf)             \includegraphics on input line 112.
 Package epstopdf Info: Output file is already uptodate.
 <2_1-eps-converted-to.pdf, id=68, 562.1pt x 421.575pt>
@@ -526,8 +489,7 @@ Package epstopdf Info: Source file: <2_2.eps>
 (epstopdf)             Output file: <2_2-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 13:21:00
 (epstopdf)                    size: 12073 bytes
-(epstopdf)             Command: <repstopdf --outfile=2_2-eps-converted-to.pdf 2
-_2.eps>
+(epstopdf)             Command: <repstopdf --outfile=2_2-eps-converted-to.pdf 2_2.eps>
 (epstopdf)             \includegraphics on input line 116.
 Package epstopdf Info: Output file is already uptodate.
 <2_2-eps-converted-to.pdf, id=69, 562.1pt x 421.575pt>
@@ -535,14 +497,19 @@ File: 2_2-eps-converted-to.pdf Graphic file (type pdf)
 <use 2_2-eps-converted-to.pdf>
 Package pdftex.def Info: 2_2-eps-converted-to.pdf  used on input line 116.
 (pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
+
+LaTeX Warning: Reference `42(3)' on page 3 undefined on input line 119.
+
+
+LaTeX Warning: Reference `42(4)' on page 3 undefined on input line 119.
+
 Package epstopdf Info: Source file: <2_3.eps>
 (epstopdf)                    date: 2019-02-09 21:04:18
 (epstopdf)                    size: 195636 bytes
 (epstopdf)             Output file: <2_3-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 13:25:18
 (epstopdf)                    size: 60962 bytes
-(epstopdf)             Command: <repstopdf --outfile=2_3-eps-converted-to.pdf 2
-_3.eps>
+(epstopdf)             Command: <repstopdf --outfile=2_3-eps-converted-to.pdf 2_3.eps>
 (epstopdf)             \includegraphics on input line 129.
 Package epstopdf Info: Output file is already uptodate.
 <2_3-eps-converted-to.pdf, id=70, 562.1pt x 421.575pt>
@@ -556,8 +523,7 @@ Package epstopdf Info: Source file: <2_4.eps>
 (epstopdf)             Output file: <2_4-eps-converted-to.pdf>
 (epstopdf)                    date: 2019-02-10 13:25:19
 (epstopdf)                    size: 12043 bytes
-(epstopdf)             Command: <repstopdf --outfile=2_4-eps-converted-to.pdf 2
-_4.eps>
+(epstopdf)             Command: <repstopdf --outfile=2_4-eps-converted-to.pdf 2_4.eps>
 (epstopdf)             \includegraphics on input line 133.
 Package epstopdf Info: Output file is already uptodate.
 <2_4-eps-converted-to.pdf, id=71, 562.1pt x 421.575pt>
@@ -566,46 +532,64 @@ File: 2_4-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: 2_4-eps-converted-to.pdf  used on input line 133.
 (pdftex.def)             Requested size: 188.21288pt x 141.15933pt.
 
-[3] [4 <./2_1-eps-converted-to.pdf> <./2_2-eps-converted-to.pdf> <./2_3-eps-con
-verted-to.pdf> <./2_4-eps-converted-to.pdf>]
-<../../../../Desktop/3_1.png, id=117, 498.86375pt x 418.56375pt>
-File: ../../../../Desktop/3_1.png Graphic file (type png)
-<use ../../../../Desktop/3_1.png>
-Package pdftex.def Info: ../../../../Desktop/3_1.png  used on input line 146.
-(pdftex.def)             Requested size: 292.77629pt x 245.65395pt.
- [5 <../../../../Desktop/3_1.png>]
-<../../../../Desktop/3_2.png, id=123, 498.86375pt x 418.56375pt>
-File: ../../../../Desktop/3_2.png Graphic file (type png)
-<use ../../../../Desktop/3_2.png>
-Package pdftex.def Info: ../../../../Desktop/3_2.png  used on input line 174.
-(pdftex.def)             Requested size: 292.77629pt x 245.65395pt.
+LaTeX Warning: Reference `3_1' on page 3 undefined on input line 142.
 
-[6 <../../../../Desktop/3_2.png>] (./hw1.aux) ) 
+[3] [4 </Users/union/Documents/texwork/MLTEX/ht1/2_1-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/2_2-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/2_3-eps-converted-to.pdf> </Users/union/Documents/texwork/MLTEX/ht1/2_4-eps-converted-to.pdf>]
+
+LaTeX Warning: File `../../../../Desktop/3_1.png' not found on input line 146.
+
+
+/Users/union/Documents/texwork/MLTEX/ht1/hw1.tex:146: Package pdftex.def Error: File `../../../../Desktop/3_1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.146 ...7\textwidth]{../../../../Desktop/3_1.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5]
+
+LaTeX Warning: Reference `3_2' on page 6 undefined on input line 170.
+
+
+LaTeX Warning: File `../../../../Desktop/3_2.png' not found on input line 174.
+
+
+/Users/union/Documents/texwork/MLTEX/ht1/hw1.tex:174: Package pdftex.def Error: File `../../../../Desktop/3_2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 ...7\textwidth]{../../../../Desktop/3_2.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[6] (/Users/union/Documents/texwork/MLTEX/ht1/hw1.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5374 strings out of 492649
- 79442 string characters out of 6129622
- 162887 words of memory out of 5000000
- 9140 multiletter control sequences out of 15000+600000
- 15228 words of font info for 60 fonts, out of 8000000 for 9000
+ 5369 strings out of 492649
+ 79564 string characters out of 6129622
+ 162699 words of memory out of 5000000
+ 9133 multiletter control sequences out of 15000+600000
+ 15397 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,39p,517b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2018/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb>
-Output written on hw1.pdf (6 pages, 727634 bytes).
+ 41i,12n,39p,568b,294s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on /Users/union/Documents/texwork/MLTEX/ht1/hw1.pdf (6 pages, 471844 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 166 PDF objects out of 1000 (max. 8388607)
+ 113 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

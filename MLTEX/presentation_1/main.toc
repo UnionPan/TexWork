@@ -1,0 +1,6 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Outline}{2}{0}{1}
+\beamer@sectionintoc {2}{Theoretical development}{3}{0}{2}
+\beamer@sectionintoc {3}{Convergence Guarantee}{21}{0}{3}
+\beamer@sectionintoc {4}{Evaluations}{30}{0}{4}
+\beamer@sectionintoc {5}{conclusion}{36}{0}{5}

@@ -1,0 +1,17 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Q-learning}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Q-Learning\040with\040NN}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{NEAT}{section.2}% 5
+\BOOKMARK [3][-]{subsubsection.2.3.1}{genetic\040algorithm}{subsection.2.3}% 6
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Genetic\040encoding}{subsection.2.3}% 7
+\BOOKMARK [3][-]{subsubsection.2.3.3}{NEAT\040algorithm}{subsection.2.3}% 8
+\BOOKMARK [2][-]{subsection.2.4}{Comparisons}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Simulations\040and\040comparison}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Mountain\040car}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Q-learning}{subsection.3.1}% 12
+\BOOKMARK [3][-]{subsubsection.3.1.2}{NEAT}{subsection.3.1}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Atari\040game:\040AirRaid}{section.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Q-learning}{subsection.3.2}% 15
+\BOOKMARK [3][-]{subsubsection.3.2.2}{NEAT}{subsection.3.2}% 16
+\BOOKMARK [1][-]{section.4}{Conclusion}{}% 17

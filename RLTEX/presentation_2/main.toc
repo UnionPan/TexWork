@@ -1,0 +1,8 @@
+\babel@toc {english}{}
+\beamer@sectionintoc {1}{Outline}{2}{0}{1}
+\beamer@sectionintoc {2}{Background}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{Q-Learning with NN}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{NEAT}{4}{0}{2}
+\beamer@sectionintoc {3}{method}{11}{0}{3}
+\beamer@sectionintoc {4}{Experiments}{20}{0}{4}
+\beamer@sectionintoc {5}{conclusion}{21}{0}{5}
